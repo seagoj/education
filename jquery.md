@@ -1,4 +1,4 @@
-# Code School
+# jQuery
 
 ## jQuery Air: Captain's Log
 * [Level 1: Events](#1)
