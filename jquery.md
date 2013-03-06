@@ -1,12 +1,12 @@
 # jQuery
 
 ## jQuery Air: Captain's Log
-* [Level 1: Events](#1)
-* [Level 2: Ajax](#2)
-* [Level 3: Effects](#3)
-* [Level 4: Code Organization](#4)
+* [Level 1: Events](#level-1-events)
+* [Level 2: Ajax](#level-2-ajax)
+* [Level 3: Effects](#level-3-effects)
+* [Level 4: Code Organization](#level-4-code-organization)
 
-### <a id='1'></a>[Level 1: Events](http://jquerytwo.codeschool.com/levels/1)
+### [Level 1: Events](http://jquerytwo.codeschool.com/levels/1)
 #### Reading from the DOM
     
     <section id='tabs'>
