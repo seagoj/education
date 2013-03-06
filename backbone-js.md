@@ -1,8 +1,8 @@
 # Backbone.js
-* [Level 1: Introduction](#1)
-* [Level 2](#2)
+* [Level 1: Introduction](#level-1-introduction)
+* [Level 2](#level-2-)
 
-## <a id='1'></a>[Level 1: Introduction](http://backbone.codeschool.com/levels/1)
+## [Level 1: Introduction](http://backbone.codeschool.com/levels/1)
 Backbone is a client side MVC
 
 ### Model Class
@@ -47,4 +47,4 @@ Backbone is a client side MVC
 	// logs to console
 	console.log(todoView.el);
 
-## <a id='2'></a>[Level 2: ]()
+## [Level 2: ]()
