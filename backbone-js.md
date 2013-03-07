@@ -1,15 +1,17 @@
 # Backbone.js
+
+## The Anatomy of Backbone.js
 * [Level 1: Introduction](#level-1-introduction)
-* [Level 2](#level-2-)
+* [Level 2: Models](#level-2-models)
 
-## [Level 1: Introduction](http://backbone.codeschool.com/levels/1)
-Backbone is a client side MVC
+### [Level 1: Introduction](http://backbone.codeschool.com/levels/1)
+* Backbone is a client side MVC
 
-### Model Class
+#### Model Class
     // Create a model class
     var TodoItem = Backbone.Model.extend({});
 
-### Model Instance
+#### Model Instance
 	// Create model instance
 	var todoItem = new TodoItem(
 		{ description: 'Pick up milk', status: 'incomplete', id:1 }
@@ -24,15 +26,15 @@ Backbone is a client side MVC
 	// Sync to the server
 	todoItem.save();
 
-### View Class
+#### View Class
 	// Create a view class (incomplete)
 	var Todoview = Backbone.View.extend({});
 
-### View Instance
+#### View Instance
 	// Create view instance
 	var todoView = new TodoView({model: todoItem})
 
-### Define Render
+#### Define Render
 	// Every view instance requires a render function
 	var TodoView = Backbone.View.extend({
 		render: function() {
@@ -41,10 +43,10 @@ Backbone is a client side MVC
 		}
 	});
 
-### Render the view
+#### Render the view
 	// renders view into $(this.el)
 	todoView.render();
 	// logs to console
 	console.log(todoView.el);
 
-## [Level 2: ]()
+### [Level 2: Models](http://backbone.codeschool.com/levels/2)
